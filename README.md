@@ -18,7 +18,7 @@ Ensure you have sudo privileges to execute the following commands.
 2. **Install Zsh and Oh My Zsh**  
    ```bash
    sudo apt-get install zsh -y
-   sudo curl -L http://install.ohmyz.sh | sh
+   chsh -s $(which zsh)
    ```
 
 3. **Install Vim and Set as Default Editor**  
