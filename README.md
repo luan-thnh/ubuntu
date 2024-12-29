@@ -31,7 +31,8 @@ Ensure you have sudo privileges to execute the following commands.
 
 ## Step 2: Install and Apply Orchis Theme
 1. Install theme Orchis Theme repository:
-   [https://drive.google.com/drive/folders/1qz6C2g6Nzlggi-WWYmN03hRrU0WiOGVV?usp=sharing][https://drive.google.com/drive/folders/1qz6C2g6Nzlggi-WWYmN03hRrU0WiOGVV?usp=sharing]
+   [https://drive.google.com/drive/folders/1qz6C2g6Nzlggi-WWYmN03hRrU0WiOGVV?usp=sharing](https://drive.google.com/drive/folders/1qz6C2g6Nzlggi-WWYmN03hRrU0WiOGVV?usp=sharing)
+   
    [https://www.pling.com/p/2176652/](https://www.pling.com/p/2176652/)
    ```bash
    unzip -o $HOME/Downloads/GTK-Themes.zip -d $HOME/.themes
