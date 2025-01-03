@@ -1,7 +1,6 @@
 # Customizing Ubuntu
 
 This guide provides step-by-step instructions for customizing your Ubuntu system.
-https://dongaeduvn-my.sharepoint.com/:f:/g/personal/khoacntt_donga_edu_vn/Er25w4jJp_FOmBYAzrO4cr8BQTY_PKgQSglG0Xz2FKVhLg?e=Wv9kXd
 ---
 
 ## Prerequisites
