@@ -88,6 +88,7 @@ Ensure you have sudo privileges to execute the following commands.
 2. Install theme Orchis Theme repository:
 
    ```bash
+   cd ubuntu
    cp -r ./GTK-Themes/* $HOME/.themes
    ln -sf $HOME/.themes/Orchis-Dark/gtk-4.0/{assets,gtk.css,gtk-dark.css} $HOME/.config/gtk-4.0
    cp -r ./icon-themes/* $HOME/.local/share/icons
@@ -99,9 +100,12 @@ Ensure you have sudo privileges to execute the following commands.
    ```
 
 3. Install shotwell & Setup backgrounds
+
    ```bash
    sudo snap install shotwell
    ```
+
+   Download background [here](https://drive.google.com/drive/folders/16mAig-mI5gb552NP-QDh-2GRclUJicRW?usp=sharing)
 
 ---
 
@@ -120,7 +124,10 @@ Ensure you have sudo privileges to execute the following commands.
    sudo apt-get install ibus-unikey
    ```
 
-   ./assets/videos/ibus.webm
+   <video controls width="600">
+     <source src="https://github.com/luan-thnh/ubuntu/blob/main/assets/videos/ibus.webm" type="video/webm">
+     Your browser does not support the video tag.
+   </video>
 
 3. **Install Audio Tools**
    ```bash
@@ -136,7 +143,10 @@ Ensure you have sudo privileges to execute the following commands.
   sudo apt update && sudo apt upgrade -y
   ```
 
-  ./assets/videos/shotwell.webm
+<video controls width="600">
+  <source src="https://github.com/luan-thnh/ubuntu/blob/main/assets/videos/shotwell.webm" type="video/webm">
+  Your browser does not support the video tag.
+</video>
 
 ---
 
