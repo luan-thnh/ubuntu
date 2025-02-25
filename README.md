@@ -124,10 +124,7 @@ Ensure you have sudo privileges to execute the following commands.
    sudo apt-get install ibus-unikey
    ```
 
-   <video controls width="600">
-     <source src="https://github.com/luan-thnh/ubuntu/blob/main/assets/videos/ibus.webm" type="video/webm">
-     Your browser does not support the video tag.
-   </video>
+   ![](/assets/videos/ibus.mp4)
 
 3. **Install Audio Tools**
    ```bash
