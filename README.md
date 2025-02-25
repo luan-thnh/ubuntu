@@ -89,12 +89,12 @@ Ensure you have sudo privileges to execute the following commands.
 
    ```bash
    cd ubuntu
-   cp -r ./GTK-Themes/* $HOME/.themes
-   ln -sf $HOME/.themes/Orchis-Dark/gtk-4.0/{assets,gtk.css,gtk-dark.css} $HOME/.config/gtk-4.0
-   cp -r ./icon-themes/* $HOME/.local/share/icons
-   cp -r ./cursors-theme/* $HOME/.icons
-   cp -r ./cursors-theme/* $HOME/.icons
-   cp -r ./zsh-configure/.oh-my-zsh $HOME/
+   mkdir -p $HOME/.themes && cp -r ./GTK-Themes/* $HOME/.themes
+   mkdir -p $HOME/.config/gtk-4.0 && ln -sf $HOME/.themes/Orchis-Dark/gtk-4.0/{assets,gtk.css,gtk-dark.css} $HOME/.config/gtk-4.0
+   mkdir -p $HOME/.local/share/icons && cp -r ./icon-themes/* $HOME/.local/share/icons
+   mkdir -p $HOME/.icons && cp -r ./cursors-theme/* $HOME/.icons
+   mkdir -p $HOME/.fonts && cp -r ./fonts/* $HOME/.fonts
+   mkdir -p $HOME/.oh-my-zsh/custom/plugins && cp -r ./zsh-configure/plugins/* $HOME/.oh-my-zsh/custom/plugins
    cp -r ./zsh-configure/.zshrc $HOME/
    dconf load / < ./settings.conf
    ```
